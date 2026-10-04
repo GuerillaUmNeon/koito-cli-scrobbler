@@ -4,7 +4,7 @@ Scrobble a full album from a MusicBrainz release MBID to multi-scrobbler
 (via its ListenBrainz endpoint), as if you just finished listening to it.
 
 Usage:
-  python scrobble_full_album_mbid.py <release_mbid>
+  python scrobbler.py <release_mbid>
 
 Environment variables:
   MS_BASE_URL  - multi-scrobbler base URL, e.g. http://192.168.1.10:9078
